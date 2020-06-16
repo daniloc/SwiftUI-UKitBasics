@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--UIKit > SwiftUI-->
         <scene sceneID="ESk-y9-4Cp">
             <objects>
                 <viewController id="slN-Rq-75x" customClass="UIKitToSwiftUIViewController" customModule="UIKitSwiftUIDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -61,7 +61,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bgE-ac-jhl"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="boe-Xg-IJp"/>
+                    <tabBarItem key="tabBarItem" title="UIKit &gt; SwiftUI" id="boe-Xg-IJp"/>
                     <connections>
                         <outlet property="swiftUIContainerView" destination="f8R-St-Qfq" id="VtD-dN-Pfz"/>
                     </connections>
@@ -70,7 +70,7 @@
             </objects>
             <point key="canvasLocation" x="523" y="471"/>
         </scene>
-        <!--Item 1-->
+        <!--SwiftUI > UIKit-->
         <scene sceneID="gcq-7S-jJw">
             <objects>
                 <viewController id="4cB-ZW-ZOT" customClass="SwiftUIToUIKitViewController" customModule="UIKitSwiftUIDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -120,7 +120,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="uu6-VQ-Sav"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="Qwc-9R-Gh0"/>
+                    <tabBarItem key="tabBarItem" title="SwiftUI &gt; UIKit" id="Qwc-9R-Gh0"/>
                     <connections>
                         <outlet property="demoSwitch" destination="6AI-sf-YvV" id="llk-Yb-TUe"/>
                         <outlet property="swiftUIContainerView" destination="ayy-Y1-USg" id="QZv-IO-epv"/>
